@@ -1,0 +1,122 @@
+.linkToback {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.cardd {
+  display: flex;
+  gap: 64px;
+}
+
+.carddWrapper {
+  margin-top: 24px;
+}
+
+.cardd img {
+  width: 486px;
+  height: 384px;
+  border-radius: 8px;
+}
+
+.carddRight {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+}
+
+.carddRight h1 {
+  font-size: 30px;
+}
+
+.carddRight h4 {
+  font-size: 20px;
+  color: #d6d7db;
+  margin-top: 8px;
+}
+
+.carddRight p {
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+.carddRight h5 {
+  font-size: 16px;
+  margin-top: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  width: 525px;
+}
+
+.colorBtn {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1.6px solid rgb(24, 25, 32);
+}
+/* 
+.color-btn:focus {
+  border: 1.6px solid #bf95f9;
+} */
+
+.colors {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.circles {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.colors h3 {
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  font-size: inherit;
+}
+
+.amount h6 {
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  font-size: inherit;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.select {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  width: 280px;
+  border-radius: 8px;
+  padding: 5px;
+  padding: 14px 40px 14px 16px;
+  border: 0.8px solid #bf95f9;
+  background-color: #272935;
+  color: white;
+}
+
+.btn {
+  width: 110px;
+  height: 46.4px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 40px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(191, 149, 249);
+  color: rgb(40, 33, 49);
+}
+
+.btn:hover {
+  background-color: #aa73f7;
+}
+
+.loader {
+  margin: 200px 500px;
+}
